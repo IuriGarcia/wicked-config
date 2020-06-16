@@ -2,25 +2,14 @@
   "groups": [
     {
       "id": "admin",
-      "alt_ids": [
-        "_ADFS_API_Admin"
-      ],
       "name": "Administrator",
+      "alt_ids": [],
       "adminGroup": true
     },
     {
       "id": "dev",
-      "alt_ids": [
-        "_ADFS_API_Developer",
-        "_HL_DEV"
-      ],
       "name": "Developer",
-      "adminGroup": false
+      "alt_ids": []
     }
-  ],
-  "_links": {
-    "self": {
-      "href": "/groups"
-    }
-  }
+  ]
 }

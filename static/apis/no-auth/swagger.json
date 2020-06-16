@@ -1,20 +1,12 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "test",
+    "title": "no-auth",
     "version": "1.0.0"
   },
   "paths": {
-    "/": {
+    "/get": {
       "get": {
-        "parameters": [
-          {
-            "in": "header",
-            "type": "string",
-            "name": "Host",
-            "required": true
-          }
-        ],
         "responses": {
           "200": {
             "description": "Success"

@@ -1,35 +1,30 @@
 {
   "apis": [
     {
-      "name": "Petstore",
       "id": "petstore",
-      "plans": [
-        "stupid",
-        "basic",
-        "unlimited"
-      ],
+      "name": "Petstore",
       "desc": "This is a sample Petstore server. You can find out more about Swagger at [http://swagger.io](http://swagger.io).",
+      "auth": "key-auth",
       "tags": [
         "Sample"
       ],
-      "auth": "key-auth"
+      "plans": [
+        "basic",
+        "unlimited"
+      ]
     },
     {
-      "name": "Petstore OAuth",
       "id": "petstore-oauth",
-      "plans": [
-        "stupid",
-        "basic",
-        "unlimited"
-      ],
+      "name": "Petstore OAuth",
       "desc": "This is a sample Petstore server secured via OAuth 2.0 Client Credentials flow.",
+      "auth": "oauth2",
       "tags": [
         "Sample"
       ],
-      "auth": "oauth2",
       "requiredGroup": "dev",
-      "authMethods": [
-        "default:local"
+      "plans": [
+        "basic",
+        "unlimited"
       ],
       "settings": {
         "token_expiration": 3600,
@@ -37,15 +32,18 @@
       }
     },
     {
-      "id": "test",
-      "name": "test",
-      "desc": "test",
-      "auth": "key-auth",
+      "id": "no-auth",
+      "name": "No Auth API",
+      "desc": "This is an API which does not require an authentication",
+      "auth": "none",
       "tags": [],
-      "plans": [
-        "godlike"
-      ],
+      "plans": [],
       "authMethods": [],
+      "settings": {
+        "token_expiration": 3600,
+        "scopes": {},
+        "mandatory_scope": false
+      },
       "requiredGroup": "",
       "registrationPool": ""
     }
