@@ -1,7 +1,7 @@
 {
   "ipconfig": 1,
   "ssl": 1,
-  "users": 2,
+  "users": 3,
   "auth": 2,
   "groups": 0,
   "plans": 2,
@@ -11,11 +11,12 @@
   "email": 3,
   "chatbot": 3,
   "templates": 0,
-  "design": 2,
+  "design": 3,
   "envs": [
     "default",
     "k8s",
     "box"
   ],
-  "env": 2
+  "env": 2,
+  "kongAdapter": 3
 }

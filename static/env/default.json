@@ -10,7 +10,7 @@
   },
   "PORTAL_API_AESKEY": {
     "encrypted": true,
-    "value": "fccd1a0096edb54fa4742f3f9747df58fdcebf06568ad390cd44fdd906518023179dd41544ab89cb671ab781fc0a5e13832579d0254596c97c3af7f163fea4f08f780b8e1611d6f45a122e94a926eaeb"
+    "value": "ff9e4c0fc2bee341f6767d39c746805eff9de452068c87c29c11fe835757d72b43cad31213ac8d9f671ab781fc0a5e13832579d0254596c97c3af7f163fea4f08f780b8e1611d6f45a122e94a926eaeb"
   },
   "PORTAL_API_DYNAMIC_CONFIG": {
     "encrypted": false,
@@ -41,7 +41,6 @@
     "value": "http://portal-api:3009"
   },
   "PORTAL_INITIALUSERS0_PASSWORD": {
-    "encrypted": false,
     "value": "wicked"
   },
   "PORTAL_KONG_ADAPTER_URL": {

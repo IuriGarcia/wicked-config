@@ -46,7 +46,6 @@
       "lastName": "User",
       "email": "admin@foo.com",
       "password": "$PORTAL_INITIALUSERS0_PASSWORD",
-      "validated": true,
       "groups": [
         "admin"
       ]
@@ -60,7 +59,7 @@
   "kongAdapter": {
     "useKongAdapter": true,
     "ignoreList": [
-      "plugin-name"
+      "[\"plugin-name\"]"
     ]
   },
   "mailer": {
