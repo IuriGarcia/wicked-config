@@ -1,7 +1,6 @@
 {
   "api": {
     "upstream_url": "http://petstore.swagger.io/v2",
-    "name": "petstore-oauth",
     "routes": [
       {
         "paths": [
@@ -10,7 +9,8 @@
         "strip_path": true,
         "preserve_host": false
       }
-    ]
+    ],
+    "name": "petstore-oauth"
   },
   "plugins": []
 }

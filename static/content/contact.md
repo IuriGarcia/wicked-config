@@ -1,19 +1,15 @@
 ### Contact Information
 
-Your Company Ltd.
-
-Some Super Street 10a
-
+Your Company Ltd.<br/>
+Some Super Street 10a<br/>
 12345 Somewhere
 
-Telefon: +49-123-456789-0
-
+Telefon: +49-123-456789-0<br/>
 E-Mail: info[at]your-company.com
 
 ## Disclaimer - rechtliche Hinweise
   
-### &sect; 1 Haftungsbeschr&auml;nkung
-
+&sect; 1 Haftungsbeschr&auml;nkung<br />
 Die Inhalte dieser Website werden mit gr&ouml;&szlig;tm&ouml;glicher Sorgfalt erstellt.
 Der Anbieter &uuml;bernimmt jedoch keine Gew&auml;hr f&uuml;r die Richtigkeit,
 Vollst&auml;ndigkeit und Aktualit&auml;t der bereitgestellten Inhalte. Die Nutzung der
@@ -22,8 +18,7 @@ Beitr&auml;ge geben die Meinung des jeweiligen Autors und nicht immer die Meinun
 Anbieters wieder. Mit der reinen Nutzung der Website des Anbieters kommt keinerlei
 Vertragsverh&auml;ltnis zwischen dem Nutzer und dem Anbieter zustande. 
   
-### &sect; 2 Externe Links
-
+&sect; 2 Externe Links<br/>
 Diese Website enth&auml;lt Verkn&uuml;pfungen zu Websites Dritter ("externe Links").
 Diese Websites unterliegen der Haftung der jeweiligen Betreiber. Der Anbieter hat bei
 der erstmaligen Verkn&uuml;pfung der externen Links die fremden Inhalte daraufhin
@@ -36,8 +31,7 @@ der externen Links ist f&uuml;r den Anbieter ohne konkrete Hinweise auf
 Rechtsverst&ouml;&szlig;e nicht zumutbar. Bei Kenntnis von Rechtsverst&ouml;&szlig;en
 werden jedoch derartige externe Links unverz&uuml;glich gel&ouml;scht. 
   
-### &sect; 3 Urheber- und Leistungsschutzrechte
-
+&sect; 3 Urheber- und Leistungsschutzrechte<br/>
 Die auf dieser Website ver&ouml;ffentlichten Inhalte unterliegen dem deutschen Urheber-
 und Leistungsschutzrecht. Jede vom deutschen Urheber- und Leistungsschutzrecht nicht
 zugelassene Verwertung bedarf der vorherigen schriftlichen Zustimmung des Anbieters
@@ -51,8 +45,7 @@ privaten und nicht kommerziellen Gebrauch ist erlaubt.
   
 Die Darstellung dieser Website in fremden Frames ist nur mit schriftlicher Erlaubnis zul&auml;ssig. 
   
-### &sect; 4 Besondere Nutzungsbedingungen
-
+&sect; 4 Besondere Nutzungsbedingungen<br/>
 Soweit besondere Bedingungen f&uuml;r einzelne Nutzungen dieser Website von den vorgenannten
 Paragraphen abweichen, wird an entsprechender Stelle ausdr&uuml;cklich darauf hingewiesen.
 In diesem Falle gelten im jeweiligen Einzelfall die besonderen Nutzungsbedingungen.
