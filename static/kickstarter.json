@@ -8,10 +8,10 @@
   "apis": 3,
   "recaptcha": 3,
   "content": 0,
-  "email": 2,
+  "email": 3,
   "chatbot": 3,
   "templates": 0,
-  "design": 2,
+  "design": 3,
   "envs": [
     "default",
     "k8s",
@@ -19,5 +19,6 @@
     "docker",
     "box"
   ],
-  "env": 2
+  "env": 2,
+  "kongAdapter": 3
 }

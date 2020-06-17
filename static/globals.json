@@ -1,5 +1,5 @@
 {
-  "version": 20,
+  "version": 23,
   "title": "wicked.haufe.io API Portal",
   "footer": "&copy; 2016-2017 Your Company Ltd.",
   "api": {
@@ -33,6 +33,14 @@
       "groups": [
         "admin"
       ]
+    },
+    {
+      "id": "4851e41746e1d56cfa431753116234d14ef97d0d",
+      "firstName": "Mariana",
+      "lastName": "Mari",
+      "email": "mcarvalho@vertigo.com.br",
+      "password": "$PORTAL_INITIALUSERS1_PASSWORD",
+      "groups": []
     }
   ],
   "recaptcha": {
@@ -40,32 +48,40 @@
     "secretKey": "reCaptchaSecretKey"
   },
   "mailer": {
-    "senderEmail": "apiportal@yourcompany.com",
+    "useMailer": true,
+    "senderEmail": "vtgmuleworkshop@gmail.com",
     "senderName": "The wicked API Portal",
-    "smtpHost": "smtp.yourcompany.com",
+    "smtpHost": "smtp.gmail.com",
     "smtpPort": 465,
     "username": "smtpuser",
-    "password": "smtppassword",
-    "adminEmail": "adminemail@yourcompany.com",
-    "adminName": "Admin Name"
+    "password": "wicked",
+    "adminEmail": "mcarvalho@vertigo.com.br",
+    "adminName": "Mariana"
   },
   "chatbot": {
     "username": "wicked.haufe.io",
     "icon_url": "https://raw.githubusercontent.com/Haufe-Lexware/wicked.haufe.io/master/public/wicked-40.png",
-    "hookUrls": [
-      "https://yourinstance.slack.com/thisisahookurlyouneedtogetfromyourslackadmin"
+    "targets": [
+      {
+        "type": "slack",
+        "hookUrl": "https://yourinstance.slack.com/thisisahookurlyouneedtogetfromyourslackadmin",
+        "events": {
+          "userSignedUp": true,
+          "userValidatedEmail": true,
+          "applicationAdded": true,
+          "applicationDeleted": true,
+          "subscriptionAdded": true,
+          "subscriptionDeleted": true,
+          "approvalRequired": true,
+          "lostPasswordRequest": true,
+          "verifyEmailRequest": true
+        }
+      }
     ],
-    "events": {
-      "userSignedUp": true,
-      "userValidatedEmail": true,
-      "applicationAdded": true,
-      "applicationDeleted": true,
-      "subscriptionAdded": true,
-      "subscriptionDeleted": true,
-      "approvalRequired": true,
-      "lostPasswordRequest": true,
-      "verifyEmailRequest": true
-    }
+    "types": [
+      "slack",
+      "msteams"
+    ]
   },
   "auth": {
     "local": {
@@ -147,7 +163,7 @@
   "kongAdapter": {
     "useKongAdapter": true,
     "ignoreList": [
-      "plugin-name"
+      "[\"[\\\"[\\\\\\\"plugin-name\\\\\\\"]\\\"]\"]"
     ]
   },
   "portal": {
@@ -169,5 +185,9 @@
     "pgPassword": "$PORTAL_STORAGE_PGPASSWORD",
     "pgDatabase": "$PORTAL_STORAGE_PGDATABASE"
   },
-  "passwordStrategy": "PW_6_24"
+  "passwordStrategy": "PW_6_24",
+  "auditlog": {
+    "useAuditlog": false,
+    "logdays": 365
+  }
 }
