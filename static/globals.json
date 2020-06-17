@@ -64,25 +64,23 @@
     ]
   },
   "mailer": {
-    "useMailer": false,
-    "senderEmail": "apiportal@yourcompany.com",
+    "useMailer": true,
+    "senderEmail": "vtgmuleworkshop@gmail.com",
     "senderName": "The wicked API Portal",
-    "smtpHost": "smtp.yourcompany.com",
-    "anonymous": false,
-    "forceSecure": false,
+    "smtpHost": "smtp.gmail.com",
     "smtpPort": 465,
-    "username": "smtpuser",
-    "password": "smtppassword",
-    "adminEmail": "adminemail@yourcompany.com",
-    "adminName": "Admin Name"
+    "username": "vtgmuleworkshop@gmail.com",
+    "password": "vtg123work",
+    "adminEmail": "mcarvalho@vertigo.com.br",
+    "adminName": "Mariana"
   },
   "auditlog": {
     "useAuditlog": false,
     "logdays": 365
   },
   "chatbot": {
-    "useChatbot": false,
     "username": "wicked.haufe.io",
+    "icon_url": "https://raw.githubusercontent.com/Haufe-Lexware/wicked.haufe.io/master/public/wicked-40.png",
     "targets": [
       {
         "type": "slack",
@@ -100,7 +98,10 @@
         }
       }
     ],
-    "icon_url": "https://raw.githubusercontent.com/Haufe-Lexware/wicked.haufe.io/master/public/wicked-40.png"
+    "types": [
+      "slack",
+      "msteams"
+    ]
   },
   "portal": {
     "authMethods": [
