@@ -64,14 +64,14 @@
   },
   "mailer": {
     "useMailer": true,
-    "senderEmail": "vtgmuleworkshop@gmail.com",
-    "senderName": "The wicked API Portal",
-    "smtpHost": "smtp.gmail.com",
+    "senderEmail": "$PORTAL_MAILER_SENDEREMAIL",
+    "senderName": "$PORTAL_MAILER_SENDERNAME",
+    "smtpHost": "$PORTAL_MAILER_SMTPHOST",
     "smtpPort": 465,
-    "username": "vtgmuleworkshop@gmail.com",
-    "password": "vtg123work",
-    "adminEmail": "mcarvalho@vertigo.com.br",
-    "adminName": "Mariana"
+    "username": "$PORTAL_MAILER_USERNAME",
+    "password": "$PORTAL_MAILER_PASSWORD",
+    "adminEmail": "$PORTAL_MAILER_ADMINEMAIL",
+    "adminName": "$PORTAL_MAILER_ADMINNAME"
   },
   "auditlog": {
     "useAuditlog": false,
