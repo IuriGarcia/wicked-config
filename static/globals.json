@@ -68,6 +68,7 @@
     "senderName": "$PORTAL_MAILER_SENDERNAME",
     "smtpHost": "$PORTAL_MAILER_SMTPHOST",
     "smtpPort": 465,
+    "forceSecure": true,
     "username": "$PORTAL_MAILER_USERNAME",
     "password": "$PORTAL_MAILER_PASSWORD",
     "adminEmail": "$PORTAL_MAILER_ADMINEMAIL",
