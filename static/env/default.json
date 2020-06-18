@@ -10,7 +10,7 @@
   },
   "PORTAL_API_AESKEY": {
     "encrypted": true,
-    "value": "fa991b0593e8ee17f67a7d3bc54ede5ffecee85453dbd0969b17ae8b570580214e99d04743a4db98671ab781fc0a5e13832579d0254596c97c3af7f163fea4f08f780b8e1611d6f45a122e94a926eaeb"
+    "value": "fb984b5294e9ef41f2712c39c145de5ff999b90654dddb909810f5890c0d8222429f83151eaada9c671ab781fc0a5e13832579d0254596c97c3af7f163fea4f08f780b8e1611d6f45a122e94a926eaeb"
   },
   "PORTAL_API_DYNAMIC_CONFIG": {
     "encrypted": false,
@@ -56,29 +56,29 @@
     "value": "http://kong:8000"
   },
   "PORTAL_MAILER_ADMINEMAIL": {
-    "value": "mcarvalho@vertigo.com.br"
+    "value": "igarcia@vertigo.com.br"
   },
   "PORTAL_MAILER_ADMINNAME": {
     "value": "Mariana"
   },
   "PORTAL_MAILER_PASSWORD": {
-    "value": "vtg123work"
+    "value": "5a32e472e27f89"
   },
   "PORTAL_MAILER_SENDEREMAIL": {
-    "value": "vtgmuleworkshop@gmail.com"
+    "value": "smtp.mailtrap.io"
   },
   "PORTAL_MAILER_SENDERNAME": {
     "value": "The wicked API Portal"
   },
   "PORTAL_MAILER_SMTPHOST": {
-    "value": "smtp.gmail.com"
+    "value": "smtp.mailtrap.io"
   },
   "PORTAL_MAILER_URL": {
     "encrypted": false,
     "value": "http://portal-mailer:3003"
   },
   "PORTAL_MAILER_USERNAME": {
-    "value": "vtgmuleworkshop@gmail.com"
+    "value": "6245c57c833e2d"
   },
   "PORTAL_NETWORK_APIHOST": {
     "encrypted": false,
