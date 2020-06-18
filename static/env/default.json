@@ -10,7 +10,7 @@
   },
   "PORTAL_API_AESKEY": {
     "encrypted": true,
-    "value": "fb984b5294e9ef41f2712c39c145de5ff999b90654dddb909810f5890c0d8222429f83151eaada9c671ab781fc0a5e13832579d0254596c97c3af7f163fea4f08f780b8e1611d6f45a122e94a926eaeb"
+    "value": "fa9b1704c2bce647f7767d6b9111d257fd9eeb0e01d980c5c845a98d500dd471449f844a44a488c8671ab781fc0a5e13832579d0254596c97c3af7f163fea4f08f780b8e1611d6f45a122e94a926eaeb"
   },
   "PORTAL_API_DYNAMIC_CONFIG": {
     "encrypted": false,
@@ -62,23 +62,23 @@
     "value": "Mariana"
   },
   "PORTAL_MAILER_PASSWORD": {
-    "value": "5a32e472e27f89"
+    "value": "Auth3ntic4te5D2020"
   },
   "PORTAL_MAILER_SENDEREMAIL": {
-    "value": "smtp.mailtrap.io"
+    "value": "testes@vertigotec.onmicrosoft.com"
   },
   "PORTAL_MAILER_SENDERNAME": {
     "value": "The wicked API Portal"
   },
   "PORTAL_MAILER_SMTPHOST": {
-    "value": "smtp.mailtrap.io"
+    "value": "smtp.office365.com"
   },
   "PORTAL_MAILER_URL": {
     "encrypted": false,
     "value": "http://portal-mailer:3003"
   },
   "PORTAL_MAILER_USERNAME": {
-    "value": "6245c57c833e2d"
+    "value": "testes@vertigotec.onmicrosoft.com"
   },
   "PORTAL_NETWORK_APIHOST": {
     "encrypted": false,
