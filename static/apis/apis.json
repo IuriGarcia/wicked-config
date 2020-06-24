@@ -37,6 +37,24 @@
         "token_expiration": 3600,
         "enable_client_credentials": true
       }
+    },
+    {
+      "id": "iuri",
+      "name": "iuri",
+      "desc": "iuri",
+      "auth": "none",
+      "tags": [
+        "lolol"
+      ],
+      "plans": [],
+      "authMethods": [],
+      "settings": {
+        "token_expiration": 3600,
+        "scopes": {},
+        "mandatory_scope": false
+      },
+      "requiredGroup": "admin",
+      "registrationPool": ""
     }
   ],
   "_links": {
